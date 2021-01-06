@@ -1,0 +1,275 @@
+/* CSS Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* main styling */
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 1.5em;
+}
+
+a {
+   color: #333;
+   text-decoration: none;
+}
+
+h1, h2, h3 {
+   padding-bottom: 20px;
+}
+
+p {
+   margin: 10px 0;
+}
+
+/* utility class */
+.container {
+   max-width: 1100px;
+   margin: auto;
+   padding:0 20px;
+}
+
+.text-primary {
+    color:#6c71bb ; 
+   
+}
+
+.intro {
+   font-size: 19px;
+   text-align: center;
+   line-height: 1.7em;
+   width: 80%;
+   margin:auto;
+   padding:20px;
+}
+
+.btn {
+   display: inline-block;
+   font-size: 18px;
+   color:aliceblue;
+   background-color: #333;
+   padding: 10px 15px;
+   border-radius: 7px;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background-color:#6c71bb ;
+}
+
+.bg-light {
+   background-color: #ffe3d8;
+}
+
+ .bg-blue {
+   background-color: #03506f;
+   color:#eee;
+} 
+
+/* padding  */
+.py-1 { padding: 10px 0;}
+.py-2 { padding: 20px 0;}
+.py-3 { padding: 30px 0;}
+.px-1 { padding: 0 10px;}
+.px-2 { padding: 0 20px;}
+
+/* navbar */
+#navbar {
+   background-color: #6c71bb;
+   color: white;
+   overflow: hidden;
+}
+
+#navbar h1 {
+   float: left;
+   padding-top: 20px;
+}
+
+#navbar a {
+   color: white;
+}
+
+#navbar ul {
+   list-style: none;
+   float: right;
+}
+
+#navbar ul li {
+   float:left;
+}
+
+#navbar ul li a {
+   display: block;
+   padding: 20px;
+}
+
+#navbar ul li a:hover {
+   background-color: aliceblue;
+   color: black;
+}
+
+#navbar .current {
+   background-color: aliceblue;
+   color: black;
+}
+
+/* showcase */
+#showcase {
+   background: url('../images/view1.jpg') no-repeat center/cover;
+   height: 700px;
+}
+
+#showcase .showcase-content {
+   color: #212121;
+   text-align: center;
+   padding-top:200px;
+}
+
+#showcase .showcase-content h1 {
+   font-size: 50px;
+   line-height: 1.2em;
+}
+
+  #showcase-content .intro {
+   text-align: center;
+   font-size: 18px;
+   margin: auto;
+   margin-top:20px;
+}  
+
+#showcase-content .btn {
+   margin-left: 400px;
+
+}
+/*    .........Section1.............  */
+#home-info{
+   height:300px;
+}
+
+#home-info .image-content{
+   float: left;
+   width:50%;
+   background: url('../images/view9.jpg') no-repeat center center/cover;
+   min-height:100%;
+}
+#home-info .info-content{
+   float:right;
+   width:50%;
+   height:100%;
+   text-align: center;
+   padding:30px 50px;
+   overflow: hidden;
+   font-size:17px;
+   background-color: #ffe3d8;
+   color:black;
+}
+
+/* Features */
+.box {
+   float:left;
+   width: 33.3%;
+   text-align:center;
+   padding:50px;
+
+}
+.fas{
+   font-size:40px;
+}
+.box i {
+   margin:10px;
+}
+
+.clr{
+   clear:both;
+}
+/* About info */
+
+#about-info .info-right{
+   float:right;
+   width:50%;
+   min-height:100%;
+   
+}
+
+#about-info .info-right img {
+   display:block;
+   width:70%;
+   margin:auto;
+
+}
+
+#about-info .info-left{
+   width:50%;
+   float:left;
+   min-height:100%;
+}
+
+/* activities */
+#activities{
+   height:550px;
+   width:60%;
+   margin:auto;
+   background: url( '../images/night-view.jpg.jpeg') no-repeat center center/cover;
+   padding-top: 40px;
+   margin-bottom:40px;
+}
+
+#activities .activities {
+   padding:20px;
+   margin-bottom:40px;
+   height:160px;
+   border-radius: 10px;
+}
+
+#activities .activities img{
+   width:80px;
+   float:left;
+   padding-right:20px;
+}
+
+#activities h2{
+   text-align:center;
+   padding-bottom:20px;
+   color:#eee;
+   font-size:2em;
+
+}
+/* Contact  */
+
+#contact-form .form-group {
+   margin-bottom: 20px;
+}
+
+#contact-form label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea
+{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+}
+
+#contact-form textarea {
+   height: 100px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+   outline: none;
+   border-color: #03506f;
+}
+
+
+/* Footer */
+#main-footer {
+   text-align: center;
+   background-color: #6c71bb;
+   color:white;
+   padding: 20px;
+}
