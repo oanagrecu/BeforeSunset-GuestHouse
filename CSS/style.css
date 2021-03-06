@@ -117,7 +117,7 @@ p {
 
 /* showcase */
 #showcase {
-   background: url('../images/view1.jpg') no-repeat center/cover;
+   background: url('/images/view1.jpg') no-repeat center/cover;
    height: 700px;
 }
 
@@ -151,7 +151,7 @@ p {
 #home-info .image-content{
    float: left;
    width:50%;
-   background: url('../images/view9.jpg') no-repeat center center/cover;
+   background: url('/images/view9.jpg') no-repeat center center/cover;
    min-height:100%;
 }
 #home-info .info-content{
@@ -211,7 +211,7 @@ p {
    height:550px;
    width:60%;
    margin:auto;
-   background: url( '../images/night-view.jpg.jpeg') no-repeat center center/cover;
+   background: url( '/images/night-view.jpg.jpeg') no-repeat center center/cover;
    padding-top: 40px;
    margin-bottom:40px;
 }
