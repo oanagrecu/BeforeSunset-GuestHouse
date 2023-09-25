@@ -128,7 +128,10 @@ p {
 
 /* showcase */
 #showcase {
-  background-image: url("../images/view1.jpg") no-repeat center/cover;
+  background-image: url("../images/view1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 700px;
 }
 
@@ -161,9 +164,13 @@ p {
 #home-info .image-content {
   float: left;
   width: 50%;
-  background-image: url("../images/view9.jpg") no-repeat center center/cover;
+  background-image: url("../images/view9.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   min-height: 100%;
 }
+
 #home-info .info-content {
   float: right;
   width: 50%;
@@ -214,12 +221,15 @@ p {
 }
 
 /* activities */
+
 #activities {
   height: 550px;
   width: 60%;
   margin: auto;
-  background-image: url("../images/night-view.jpg.jpeg") no-repeat center
-    center/cover;
+  background-image: url("../images/night-view.jpg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   padding-top: 40px;
   margin-bottom: 40px;
 }
